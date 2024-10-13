@@ -1,15 +1,15 @@
 <form action="add_task.php" method="POST">
-            <label for="title">Заголовок задачи:</label>
-            <input type="text" name="title" required><br>
+    <label for="title">Заголовок задачи:</label>
+     <input type="text" id="title" required><br>
         
-            <label for="description">Описание задачи:</label>
-            <textarea name="description"></textarea><br>
+    <label for="description">Описание задачи:</label>
+    <textarea id="description"></textarea><br>
         
-            <label for="deadline">Дедлайн:</label>
-            <input type="date" name="deadline"><br>
+    <label for="deadline">Дедлайн:</label>
+    <input type="date" id="deadline"><br>
         
-            <input type="submit" value="Добавить задачу">
-        </form>
+    <input type="submit" value="Добавить задачу">
+</form>
 
 <?php
 // Подключение к базе данных
